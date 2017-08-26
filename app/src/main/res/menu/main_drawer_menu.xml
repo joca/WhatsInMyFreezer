@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Switch category -->
+    <group>
+        <item
+            android:id="@+id/home"
+            android:title="@string/drawer_menu_home"
+            />
+    </group>
+    <item
+        android:title="@string/submenu_categories"
+        android:id="@+id/group_categories"
+        android:orderInCategory="0">
+        <menu>
+            <group>
+            <item
+                android:id="@+id/show_all_category"
+                android:icon="@drawable/ic_chevron_right_black_36dp"
+                android:title="@string/drawer_menu_all"
+                android:orderInCategory="0"
+                />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="@string/submenu_settings"
+        android:orderInCategory="1">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/handle_category"
+                    android:icon="@drawable/ic_chevron_right_black_36dp"
+                    android:title="@string/drawer_menu_handle"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">What\'s In My Freezer</string>
+    <!-- Activity titles -->
+    <string name="title_add_activity">Lägg till ny frysvara</string>
+    <string name="title_remove_activity">Ta bort frysvara</string>
+    <string name="title_handle_category_activity">Lägg till ny kategori</string>
+    <string name="title_food_item">Frysvara</string>
+
+    <!-- MainFragment -->
+    <string name="default_storage_name">What\'s In My Freezer</string>
+    <string name="main_add_button">Lägg till</string>
+    <string name="main_remove_button">Ta bort</string>
+    <string name="main_view_content_button">Se innehåll</string>
+
+    <!-- NavigationDrawer i MainActivity-->
+    <string name="content_header">Frys</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="drawer_menu_all">Visa allt</string>
+    <string name="drawer_menu_home">Hem</string>
+    <string name="drawer_menu_handle">Hantera kategorier</string>
+    <string name="submenu_settings">Inställningar</string>
+    <string name="submenu_categories">Välj kategori</string>
+
+
+    <string name="remove_quantity">Ta bort</string>
+    <string name="add_quantity">Lägg till</string>
+    <string name="quantity_activity_remove">Antal förpackningar</string>
+
+    <!-- AddActivity -->
+    <string name="name_activity_add">Namn</string>
+    <string name="brand_activity_add">Tillverkare</string>
+    <string name="amount_activity_add">Mängd</string>
+    <string name="quantity_activity_add">Antal</string>
+    <string name="default_activity_add">1</string>
+    <string name="add_activity_add">Lägg till</string>
+    <string name="clear_activity_add">Rensa fält</string>
+    <string name="asterix_add">*</string>
+    <string name="mandatory_add">* Indikerar nödvändiga fält</string>
+    <string name="category_textview_activity_add">Kategori</string>
+    <string name="category_button_new">Ny kategori</string>
+    <string-array name="units_spinner_array">
+        <item>st</item>
+		<item>kg</item>
+        <item>hg</item>
+        <item>g</item>
+		<item>l</item>
+        <item>dl</item>
+    </string-array>
+
+    <!-- CategoryActivity-->
+    <string name="new_category_textview">Lägg till kategori:</string>
+    <string name="edit_category_textview">Ändra namn på kategori:</string>
+    <string name="remove_category_textview">Ta bort kategori:</string>
+    <string name="name_category_edittext">Namn</string>
+    <string name="new_name_category_edittext">Nytt namn</string>
+    <string name="add_category_button">Lägg till</string>
+    <string name="edit_category_button">Ändra</string>
+    <string name="remove_category_button">Ta bort</string>
+    <string name="count_categories_textview">* Antal kategorier:</string>
+
+    <!-- foodItemFragment -->
+    <string name="quantity_food">Antal förpackningar:</string>
+    <string name="alter_food_information">Ändra information</string>
+
+    <!-- Toolbar in ContentListFragment -->
+    <string name="action_add">Lägg till ny</string>
+
+    <!-- Toast messages -->
+    <string name="add_forgot_name">Glömde fylla i namn.</string>
+    <string name="add_forgot_amount">Glömde fylla i mängd.</string>
+    <string name="category_forgot_name">Glömde fylla i namn på kategori.</string>
+    <string name="category_forgot_category">Glömde välja kategori att ändra namn på.</string>
+    <string name="added">lades till.</string>
+    <string name="removed_category">togs bort.</string>
+    <string name="removed_category_all">och all dess innehåll togs bort.</string>
+    <string name="same_name">
+        Samma namn som kategorin inskrivet. Var vänlig och försök igen.</string>
+    <string name="alphanumeric">
+        Namnet måste börja med en bokstav eller en siffa Var vänlig försök igen.</string>
+    <string name="edited">ändrades till</string>
+    <string name="merged">slogs samman med</string>
+    <string name="category_exists">finns redan. Var vänlig välj ett annat namn.</string>
+
+    <!-- Category spinner NO_CATEGORY field -->
+    <string name="no_category">- ingen vald -</string>
+
+    <!-- Dialog fragments -->
+    <string name="confirm_merge_title">Slå samman kategorier</string>
+    <string name="confirm_merge_message">
+        Namnet du ville ändra kategorin till tillhör en annan kategori. Vill du slå samman de två
+        kategorierna?\n\n
+        Åtgärden går inte att ångra.</string>
+    <string name="confirm_remove_title">Ta bort kategori</string>
+    <string name="confirm_remove_message">
+        Välj följande:\n
+        1. Ta bort allt - tar bort kategorin samt dess innehåll.\n
+        2. Ta bort kategori - tar bort kategorin och sätter dess innehåll som kategorilöst.
+        \n\nÅtgärden går inte att ångra.</string>
+    <string name="button_category">Ta bort allt</string>
+    <string name="button_only_category">Ta bort kategori</string>
+    <string name="add_quantity_title">Lägg till antal</string>
+    <string name="remove_quantity_title">Ta bort antal</string>
+    <string name="error_empty_name">- namn saknades -</string>
+</resources>

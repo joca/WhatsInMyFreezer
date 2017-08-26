@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">What\'s In My Freezer</string>
+    <!-- Activity titles -->
+    <string name="title_add_activity">Add new food into freezer</string>
+    <string name="title_remove_activity">Remove food from freezer</string>
+    <string name="title_handle_category_activity">Handle categories</string>
+    <string name="title_food_item">Food</string>
+
+    <!-- MainFragment -->
+    <string name="default_storage_name">What\'s In My Freezer</string>
+    <string name="main_add_button">Add</string>
+    <string name="main_remove_button">Remove</string>
+    <string name="main_view_content_button">View content</string>
+
+    <!-- NavigationDrawer i MainActivity-->
+    <string name="content_header">Freezer</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="drawer_menu_all">Show all</string>
+    <string name="drawer_menu_home">Home</string>
+    <string name="drawer_menu_handle">Handle categories</string>
+    <string name="submenu_settings">Settings</string>
+    <string name="submenu_categories">Choose category</string>
+
+    <!-- RemoveActivity -->
+    <string name="remove_quantity">Remove</string>
+    <string name="add_quantity">Add</string>
+    <string name="quantity_activity_remove">Quantity of packages</string>
+
+    <!-- AddActivity -->
+    <string name="name_activity_add">Name</string>
+    <string name="brand_activity_add">Producer</string>
+    <string name="amount_activity_add">Amount</string>
+    <string name="quantity_activity_add">Quantity</string>
+    <string name="default_activity_add">1</string>
+    <string name="add_activity_add">Add</string>
+    <string name="clear_activity_add">Clear fields</string>
+    <string name="asterix_add">*</string>
+    <string name="mandatory_add">* Indicates necessary fields</string>
+    <string name="category_textview_activity_add">Category</string>
+    <string name="category_button_new">New category</string>
+    <string-array name="units_spinner_array">
+        <item>pcs</item>
+        <item>kg</item>
+        <item>hg</item>
+        <item>g</item>
+        <item>l</item>
+        <item>dl</item>
+    </string-array>
+
+    <!-- CategoryActivity-->
+    <string name="new_category_textview">Add new category:</string>
+    <string name="edit_category_textview">Change name of category:</string>
+    <string name="remove_category_textview">Remove category:</string>
+    <string name="name_category_edittext">Name</string>
+    <string name="new_name_category_edittext">New name</string>
+    <string name="add_category_button">Add</string>
+    <string name="edit_category_button">Edit</string>
+    <string name="remove_category_button">Remove</string>
+    <string name="count_categories_textview">* Number of categories:</string>
+
+    <!-- foodItemFragment -->
+    <string name="quantity_food">Quantity:</string>
+    <string name="alter_food_information">Alter food data</string>
+
+    <!-- Toolbar in ContentListFragment -->
+    <string name="action_add">Add new food</string>
+
+    <!-- Toast messages -->
+    <string name="add_forgot_name">Forgot adding a name.</string>
+    <string name="add_forgot_amount">Forgot adding an amount.</string>
+    <string name="category_forgot_name">Forgot name of category.</string>
+    <string name="category_forgot_category">Forgot selecting a category.</string>
+    <string name="added">was added.</string>
+    <string name="removed_category">was removed.</string>
+    <string name="removed_category_all">and all its content was removed.</string>
+    <string name="same_name">
+        Name was the same as the category. Please try again.</string>
+    <string name="alphanumeric">
+        Name must start with a letter or a number. Please try again.</string>
+    <string name="edited">changed to</string>
+    <string name="merged">merged with</string>
+    <string name="category_exists">allready exists. Please choose a different name.</string>
+
+    <!-- Category spinner NO_CATEGORY field -->
+    <string name="no_category">- none selected -</string>
+
+    <!-- Dialog fragments -->
+    <string name="confirm_merge_title">Merge categories</string>
+    <string name="confirm_merge_message">
+        The name you gave the category, belongs to another category. Do you want to merge the
+        two categories?\n\n
+        The action can not be undone.</string>
+    <string name="confirm_remove_title">Remove category</string>
+    <string name="confirm_remove_message">
+        Choose following:\n
+        1. Remove all - removes the category and all its food content.\n
+        2. Remove category - removes the category. Its food content will no longer belong to
+        a category.
+        \n\nAction can not be undone.</string>
+    <string name="button_category">Remove all</string>
+    <string name="button_only_category">Remove category</string>
+    <string name="add_quantity_title">Add quantity</string>
+    <string name="remove_quantity_title">Remove quantity</string>
+    <string name="error_empty_name">- name missing -</string>
+</resources>

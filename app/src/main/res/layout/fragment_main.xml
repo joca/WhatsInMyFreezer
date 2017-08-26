@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="@string/default_storage_name"
+        />
+    <Button
+        android:id="@+id/main_fragment_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/main_add_button"
+        android:minWidth="160dp"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+        android:drawableStart="@drawable/ic_add_circle_outline_black_24dp"
+        />
+    <Button
+        android:id="@+id/main_fragment_content_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_view_content_button"
+        android:minWidth="160dp"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_list_black_24dp"
+        android:drawableStart="@drawable/ic_list_black_24dp"
+        />
+</LinearLayout>
